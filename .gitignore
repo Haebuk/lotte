@@ -1,1 +1,7 @@
 .venv
+__pycache__
+.mypy_cache
+data
+.coverage
+.pytest_cache
+.DS_Store
