@@ -6,9 +6,11 @@ authors = ["Jaesung Ryu <cwryu6252@naver.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-pyodbc = "^4.0.34"
 azure-keyvault-secrets = "^4.5.1"
 azure-identity = "^1.10.0"
+pandas = "^1.4.3"
+SQLAlchemy = "^1.4.40"
+pyodbc = "^4.0.34"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
@@ -18,6 +20,9 @@ mypy = "^0.971"
 pytest = "^7.1.2"
 coverage = "^6.4.3"
 pytest-cov = "^3.0.0"
+jupyter = "^1.0.0"
+ipykernel = "^6.15.1"
+numpy = "^1.23.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
